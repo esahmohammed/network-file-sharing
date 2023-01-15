@@ -31,5 +31,51 @@ To enable the client-1 machine to view the folders after they have been made, sh
 <br />
 
 <p>
-<img src="https://i.imgur.com/ZkmVtWg.png" height="50%" width="50%" alt="Created 4 folders"/>
+<img src="https://i.imgur.com/VwqbFhR.png" height="50%" width="50%" alt="Giving permissions to folders"/>
 </p>
+
+<p>
+<img src="https://i.imgur.com/VyDtiST.png" height="50%" width="50%" alt="Domain Users Permissions"/>
+</p>
+
+<p>
+We can test the shared files we just established by logging onto the client computer using a normal user account. You can see that the permissions we set are effective.
+</p>
+
+<p>
+<img src="https://i.imgur.com/hvOQtgq.png" height="50%" width="50%" alt="Permissions Effective"/>
+</p>
+
+<p>
+Re-enter the DC-1 VM. Create a security group called "Accountants" in ADUC. We can do so by Creating a new OU, then creating a new group inside of that OU. 
+</p>
+
+<p>
+<img src="https://i.imgur.com/Ei2j9ua.png" height="50%" width="50%" alt="Creating accountants security group"/>
+</p>
+
+<p>
+<img src="https://i.imgur.com/cod64rQ.png" height="50%" width="50%" alt="Accountants Security Group"/>
+</p>
+
+<p>
+Only users belonging to this group will have access to the "accountants" folder. Similar to what we did in the previous section, we must share the "Accountants" folder; however, this time, we will only share it with the group of accountants. This folder won't be accessible to normal users. A user would need to be a member of the "Accountants" security group if we wanted to grant them access to the accounting folder.
+</p>
+
+<p>
+<img src="https://i.imgur.com/I1EoUgl.png" height="50%" width="50%" alt="Accountants Permissions"/>
+</p>
+
+<p>
+<img src="https://i.imgur.com/3dAAHsD.png" height="50%" width="50%" alt="Permissions Effective"/>
+</p>
+
+<p>
+If we were to grant a member access to the accounting folder, the followng can be observed.
+</p>
+
+<p>
+<img src="https://i.imgur.com/RkKKQ72.png" height="50%" width="50%" alt="Permissions Effective"/>
+</p>
+
+
