@@ -22,7 +22,7 @@ Setting up shared network files and permissions will be the focus of this lab. C
 <br />
 
 <p>
-<img src="https://i.imgur.com/ZkmVtWg.png" height="50%" width="50%" alt="Created 4 folders"/>
+<img src="https://i.imgur.com/ZkmVtWg.png" height="80%" width="80%" alt="Created 4 folders"/>
 </p>
 
 <p>
@@ -31,11 +31,11 @@ To enable the client-1 machine to view the folders after they have been made, sh
 <br />
 
 <p>
-<img src="https://i.imgur.com/VwqbFhR.png" height="50%" width="50%" alt="Giving permissions to folders"/>
+<img src="https://i.imgur.com/VwqbFhR.png" height="80%" width="80%" alt="Giving permissions to folders"/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/VyDtiST.png" height="50%" width="50%" alt="Domain Users Permissions"/>
+<img src="https://i.imgur.com/VyDtiST.png" height="80%" width="80%" alt="Domain Users Permissions"/>
 </p>
 
 <p>
@@ -43,7 +43,7 @@ We can test the shared files we just established by logging onto the client comp
 </p>
 
 <p>
-<img src="https://i.imgur.com/hvOQtgq.png" height="50%" width="50%" alt="Permissions Effective"/>
+<img src="https://i.imgur.com/hvOQtgq.png" height="80%" width="80%" alt="Permissions Effective"/>
 </p>
 
 <p>
@@ -51,11 +51,11 @@ Re-enter the DC-1 VM. Create a security group called "Accountants" in ADUC. We c
 </p>
 
 <p>
-<img src="https://i.imgur.com/Ei2j9ua.png" height="50%" width="50%" alt="Creating accountants security group"/>
+<img src="https://i.imgur.com/Ei2j9ua.png" height="80%" width="80%" alt="Creating accountants security group"/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/cod64rQ.png" height="50%" width="50%" alt="Accountants Security Group"/>
+<img src="https://i.imgur.com/cod64rQ.png" height="80%" width="80%" alt="Accountants Security Group"/>
 </p>
 
 <p>
@@ -63,11 +63,11 @@ Only users belonging to this group will have access to the "accountants" folder.
 </p>
 
 <p>
-<img src="https://i.imgur.com/I1EoUgl.png" height="50%" width="50%" alt="Accountants Permissions"/>
+<img src="https://i.imgur.com/I1EoUgl.png" height="80%" width="80%" alt="Accountants Permissions"/>
 </p>
 
 <p>
-<img src="https://i.imgur.com/3dAAHsD.png" height="50%" width="50%" alt="Permissions Effective"/>
+<img src="https://i.imgur.com/3dAAHsD.png" height="80%" width="80%" alt="Permissions Effective"/>
 </p>
 
 <p>
@@ -75,7 +75,7 @@ If we were to grant a member access to the accounting folder, the followng can b
 </p>
 
 <p>
-<img src="https://i.imgur.com/RkKKQ72.png" height="50%" width="50%" alt="Permissions Effective"/>
+<img src="https://i.imgur.com/RkKKQ72.png" height="80%" width="80%" alt="Permissions Effective"/>
 </p>
 
 
