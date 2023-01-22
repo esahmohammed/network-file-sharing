@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/5c69OK7.png" alt="AD File Sharing"/>
+<img src="https://i.imgur.com/5c69OK7.png"  height="50%" width="50%" alt="AD File Sharing"/>
 </p>
 
 <h1>Network-File-Shares-and-Permissions</h1>
